@@ -1,13 +1,15 @@
 .wrapper {
     background-color: #E5E5E5;
 
-    height: 100%;
+    min-height: 100%;
 
     display: grid;
     grid-template: 
     'main' 1fr
     'small' auto
     / 1fr;
+
+    padding-top: 40px;
 }
 
 .main {

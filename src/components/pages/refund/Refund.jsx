@@ -6,6 +6,8 @@ import Title from '../../title/Title';
 import st from './Refund.module.scss';
 import Amount from './Amount';
 import Address from './Address';
+import Comment from './Comment';
+import ProvidedEmail from './ProvidedEmail';
 
 function Refund() {
   return (
@@ -36,10 +38,14 @@ function Refund() {
             </InputContainer>
         </section>
         <section className={ st['input-container-wrapper'] }>
-            <InputContainer label='Comment'>content</InputContainer>
+            <InputContainer label='Comment'>
+                <Comment placeholder='Comment' rightText='0/120'/></InputContainer>
         </section>
-        <section>
-            content
+        <section className={ st['provided-email-wrapper'] }>
+            <ProvidedEmail>
+                Your provided email: <u>bla@bla.com</u><br />
+                Refunds are made according to the terms of the store
+            </ProvidedEmail>
         </section>
         <section className={ st['button-box'] }>
             <Button>Back</Button>
