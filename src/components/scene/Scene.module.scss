@@ -1,0 +1,37 @@
+.wrapper {
+    background-color: #E5E5E5;
+
+    height: 100%;
+
+    display: grid;
+    grid-template: 
+    'main' 1fr
+    'small' auto
+    / 1fr;
+}
+
+.main {
+    grid-area: main;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-box {
+    grid-area: small;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 16px 20px;
+}
+
+.small {
+    font-family: 'PT Root UI';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}

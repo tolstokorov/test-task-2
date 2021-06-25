@@ -1,0 +1,36 @@
+.cancel {
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.top-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.paragraph {
+    margin-bottom: 32px;
+}
+
+.button-box {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
