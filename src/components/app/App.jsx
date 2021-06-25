@@ -6,9 +6,10 @@ import {
 } from "react-router-dom";
 
 import TimeOut from '../pages/time-out/TimeOut';
-import Success from '../pages/refund/success/Success';
+import RefundSuccess from '../pages/refund/success/Success';
 import Refund from '../pages/refund/Refund';
-import Cancel from '../pages/waiting-for-payment/cancel/Cancel';
+import WaitingForPaymentCancel from '../pages/waiting-for-payment/cancel/Cancel';
+import WaitingForPaymentSuccess from '../pages/waiting-for-payment/success/Success';
 import Scene from '../scene/Scene';
 
 import st from './App.module.scss';
@@ -24,18 +25,22 @@ function App() {
             <Link to="/refund-success">refund success</Link><br />
             <Link to="/refund">refund</Link><br />
             <Link to="/waiting-for-payment-cancel">waiting-for-payment cancel</Link><br />
+            <Link to="/waiting-for-payment-success">waiting-for-payment success</Link><br />
           </Route>
           <Route path="/time-out">
             <Scene><TimeOut /></Scene>
           </Route>
           <Route path="/refund-success">
-            <Scene><Success /></Scene>
+            <Scene><RefundSuccess /></Scene>
           </Route>
           <Route path="/refund">
             <Scene><Refund /></Scene>
           </Route>
           <Route path="/waiting-for-payment-cancel">
-            <Scene><Cancel /></Scene>
+            <Scene><WaitingForPaymentCancel /></Scene>
+          </Route>
+          <Route path="/waiting-for-payment-success">
+            <Scene><WaitingForPaymentSuccess /></Scene>
           </Route>
         </Switch>
       </Router>

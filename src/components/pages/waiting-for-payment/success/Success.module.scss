@@ -1,0 +1,132 @@
+.success {
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    width: 464px;
+}
+
+.top-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 100%;
+
+    border-top: 2px solid #27AE60;
+
+    margin-bottom: 32px;
+}
+
+.thanks-for-payment {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+
+    font-family: 'PT Root UI';
+    font-style: normal;
+    color: #060C32;
+
+    margin-bottom: 24px;
+
+    &_title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+
+    &_text {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.stripe {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #060C32;
+
+    margin-bottom: 12px;
+}
+
+.key {
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.value {
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.status-completed {
+    font-weight: 500;
+    color: #27AE60;
+}
+
+.under-line {
+    border-top: 2px solid #DDE1E2;
+}
+
+.total {
+    font-weight: 500;
+    line-height: 18px;
+
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.btc {
+    font-weight: normal;
+    line-height: 18px;
+}
+
+
+.button-box {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.dl-box {
+    display: flex;
+    align-items: center;
+}
+
+.dl-icon {
+    position: relative;
+    right: 8px
+}
