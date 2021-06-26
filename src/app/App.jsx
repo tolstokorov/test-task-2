@@ -1,24 +1,15 @@
 import {
-  HashRouter as Router,
-  Switch,
-  Route,
-  Link
+  HashRouter as Router, Link, Route, Switch
 } from "react-router-dom";
-
+import Scene from '../components/scene/Scene';
+import Refund from '../pages/refund/Refund';
+import RefundSuccess from '../pages/refund/success/Success';
+import TimeOut from '../pages/time-out/TimeOut';
+import WaitingForPaymentCancel from '../pages/waiting-for-payment/cancel/Cancel';
 import WaitingForPaymentCurrency from '../pages/waiting-for-payment/currency/Currency';
 import WaitingForPaymentPaymentAddress from '../pages/waiting-for-payment/payment-address/PaymentAddress';
 import WaitingForPaymentSuccess from '../pages/waiting-for-payment/success/Success';
-import WaitingForPaymentCancel from '../pages/waiting-for-payment/cancel/Cancel';
-
-import Refund from '../pages/refund/Refund';
-import RefundSuccess from '../pages/refund/success/Success';
-
-import TimeOut from '../pages/time-out/TimeOut';
-
-import Scene from '../components/scene/Scene';
-
 import st from './App.module.scss';
-import Template from "../components/template/Template";
 
 function App() {
   return (

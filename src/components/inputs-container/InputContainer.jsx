@@ -1,6 +1,6 @@
 import st from './InputContainer.module.scss';
 
-function InputContainer({ label, children }) {
+function InputContainer({ label = 'no label', children }) {
   return (
     <div className={ st['input-container'] }>
         <section className={ st['label'] }>{ label }</section>

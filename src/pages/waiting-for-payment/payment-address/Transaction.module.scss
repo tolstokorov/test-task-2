@@ -1,0 +1,55 @@
+.transaction-box {
+    border: 2px solid #DDE1E2;
+    border-left: none;
+    border-right: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 0;
+    margin-bottom: 14px;
+}
+
+.currency-value {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    padding-bottom: 4px;
+}
+
+.dollar-value {
+    line-height: 20px;
+    color: #96A1A7;
+}
+
+.inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.equivalent {
+    line-height: 20px;
+    letter-spacing: 0.75px;
+}
+
+.loader {
+    $lite:  transparent;
+    $brand: #3C6CCE;
+    $size: 16px;
+
+    box-sizing: border-box;
+    width : $size;
+    height: $size;
+    border: 2px solid $brand;
+    border-bottom-color: $lite;
+    border-radius: 50%;
+    display: inline-block;
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}
