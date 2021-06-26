@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/test-task-2/static/css/main.512ea375.chunk.css",
-    "main.js": "/test-task-2/static/js/main.7ac4b773.chunk.js",
-    "main.js.map": "/test-task-2/static/js/main.7ac4b773.chunk.js.map",
+    "main.css": "/test-task-2/static/css/main.51a155d5.chunk.css",
+    "main.js": "/test-task-2/static/js/main.7e692ac6.chunk.js",
+    "main.js.map": "/test-task-2/static/js/main.7e692ac6.chunk.js.map",
     "runtime-main.js": "/test-task-2/static/js/runtime-main.370127c6.js",
     "runtime-main.js.map": "/test-task-2/static/js/runtime-main.370127c6.js.map",
     "static/js/2.3a4d67db.chunk.js": "/test-task-2/static/js/2.3a4d67db.chunk.js",
     "static/js/2.3a4d67db.chunk.js.map": "/test-task-2/static/js/2.3a4d67db.chunk.js.map",
     "index.html": "/test-task-2/index.html",
-    "static/css/main.512ea375.chunk.css.map": "/test-task-2/static/css/main.512ea375.chunk.css.map",
+    "static/css/main.51a155d5.chunk.css.map": "/test-task-2/static/css/main.51a155d5.chunk.css.map",
     "static/js/2.3a4d67db.chunk.js.LICENSE.txt": "/test-task-2/static/js/2.3a4d67db.chunk.js.LICENSE.txt",
     "static/media/BTC-logo.8508d0a1.svg": "/test-task-2/static/media/BTC-logo.8508d0a1.svg",
     "static/media/ETH-logo.e0865718.svg": "/test-task-2/static/media/ETH-logo.e0865718.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.370127c6.js",
     "static/js/2.3a4d67db.chunk.js",
-    "static/css/main.512ea375.chunk.css",
-    "static/js/main.7ac4b773.chunk.js"
+    "static/css/main.51a155d5.chunk.css",
+    "static/js/main.7e692ac6.chunk.js"
   ]
 }
