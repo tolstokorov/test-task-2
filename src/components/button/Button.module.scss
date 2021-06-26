@@ -11,7 +11,10 @@
 
     &:hover {
         opacity: .7;
+        cursor: pointer;
     }
+
+    text-decoration: none;
 }
 
 .accent {
@@ -27,5 +30,7 @@
 }
 
 .anchor {
-    text-decoration: none;
+    letter-spacing: 0.75px;
+    color: #3C6CCE;
+    border: none;
 }

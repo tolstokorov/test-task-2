@@ -1,7 +1,7 @@
-import Button from '../../../button/Button';
-import Logo from '../../../logo/Logo';
-import Paragraph from '../../../paragraph/Paragraph';
-import Title from '../../../title/Title';
+import Button from '../../../components/button/Button';
+import Logo from '../../../components/logo/Logo';
+import Paragraph from '../../../components/paragraph/Paragraph';
+import Title from '../../../components/title/Title';
 import st from './Success.module.scss';
 
 function Success() {

@@ -1,11 +1,11 @@
-import Button from '../../button/Button';
-import Invoice from '../../invoice/Invoice';
-import Logo from '../../logo/Logo';
-import InputContainer from '../../inputs-container/InputContainer';
-import Title from '../../title/Title';
+import Button from '../../components/button/Button';
+import Invoice from '../../components/invoice/Invoice';
+import Logo from '../../components/logo/Logo';
+import InputContainer from '../../components/inputs-container/InputContainer';
+import Title from '../../components/title/Title';
 import st from './Refund.module.scss';
-import Amount from './Amount';
-import Address from './Address';
+import Amount from '../../components/Amount/Amount';
+import Address from '../../components/address/Address';
 import Comment from './Comment';
 import ProvidedEmail from './ProvidedEmail';
 
@@ -25,10 +25,10 @@ function Refund() {
         <section className={ st['input-container-wrapper'] }>
             <InputContainer label='Select the amount which you want to recieve'>
                 <div className={ st['select-amount-content'] }>
-                    <section className={ st['left-amount'] }>
-                        <Amount firstLine='0.00022 BTC' secondLine='Refund of overpayment' active/></section>
-                    <section className={ st['right-amount'] }>
-                        <Amount firstLine='0.002421' secondLine='Full refund' /></section>
+                    <section className={ st['amount'] }>
+                        <Amount secondLine='Refund of overpayment' active>0.00022 BTC</Amount></section>
+                    <section className={ st['amount'] }>
+                        <Amount secondLine='Full refund'>0.002421</Amount></section>
                 </div>
             </InputContainer>
         </section>

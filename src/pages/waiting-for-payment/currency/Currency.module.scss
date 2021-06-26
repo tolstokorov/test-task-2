@@ -1,0 +1,53 @@
+.currency {
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    width: 464px;
+}
+
+.top-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.select-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.select-amount-content {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    row-gap: 12px;
+}
+
+.input-container-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.button-box {
+    box-sizing: border-box;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}

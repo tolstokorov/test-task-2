@@ -1,7 +1,7 @@
-import Button from '../../../button/Button';
-import Invoice from '../../../invoice/Invoice';
-import Logo from '../../../logo/Logo';
-import Title from '../../../title/Title';
+import Button from '../../../components/button/Button';
+import Invoice from '../../../components/invoice/Invoice';
+import Logo from '../../../components/logo/Logo';
+import Title from '../../../components/title/Title';
 
 import st from './Success.module.scss';
 
