@@ -10,6 +10,7 @@ import Btc from './btc/Btc';
 import Eth from './eth/Eth';
 import Ton from './ton/Ton';
 import Usdt from './usdt/Usdt';
+import Table from './Table';
 
 function Currency() {
   return (
@@ -24,7 +25,10 @@ function Currency() {
             <section className={ st['logo'] }>
                 <Logo width={ 48 } height={ 48 }/></section>
         </div>
-        <section className={ st['select-wrapper'] }>
+        <section className={ st['wrapper'] }>
+            <Table />
+        </section>
+        <section className={ st['wrapper'] }>
             <InputContainer label='Select the cryptocurrency for payment'>
                 <div className={ st['select-amount-content'] }>
                     <section>

@@ -12,7 +12,7 @@ function Success() {
         <section className={ st['title'] }>
             <Title>Refund request sent successfully</Title></section>
         <section className={ st['paragraph'] }>
-            <Paragraph>if the seller has not returned the funds to you within 3 days - write to him at <u>contact@prodavtsa.ru</u></Paragraph></section>
+            <Paragraph>if the seller has not returned the funds to you within 3 days - write to him at <a href="mailto:contact@prodavtsa.ru">contact@prodavtsa.ru</a></Paragraph></section>
         <section className={ st['button-box'] }>
             <Button>Close</Button>
         </section>

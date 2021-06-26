@@ -1,0 +1,47 @@
+.table {
+    width: 100%;
+
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    column-span: none;
+
+    text-align: right;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left !important;
+}
+
+.thead {
+    letter-spacing: 0.5px;
+    color: #96A1A7;
+}
+
+.tbody {
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+
+.total {
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #060C32;
+
+    text-align: right;
+
+    border-top: 2px solid #DDE1E2;
+    margin-top: 10px;
+    padding-top: 10px;
+}
