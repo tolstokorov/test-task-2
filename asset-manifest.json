@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test-task-2/static/css/main.f3c06ad6.chunk.css",
-    "main.js": "/test-task-2/static/js/main.6c9b5f83.chunk.js",
-    "main.js.map": "/test-task-2/static/js/main.6c9b5f83.chunk.js.map",
+    "main.js": "/test-task-2/static/js/main.43c84b3a.chunk.js",
+    "main.js.map": "/test-task-2/static/js/main.43c84b3a.chunk.js.map",
     "runtime-main.js": "/test-task-2/static/js/runtime-main.370127c6.js",
     "runtime-main.js.map": "/test-task-2/static/js/runtime-main.370127c6.js.map",
-    "static/js/2.ec93af0d.chunk.js": "/test-task-2/static/js/2.ec93af0d.chunk.js",
-    "static/js/2.ec93af0d.chunk.js.map": "/test-task-2/static/js/2.ec93af0d.chunk.js.map",
+    "static/js/2.edf5c06d.chunk.js": "/test-task-2/static/js/2.edf5c06d.chunk.js",
+    "static/js/2.edf5c06d.chunk.js.map": "/test-task-2/static/js/2.edf5c06d.chunk.js.map",
     "index.html": "/test-task-2/index.html",
     "static/css/main.f3c06ad6.chunk.css.map": "/test-task-2/static/css/main.f3c06ad6.chunk.css.map",
-    "static/js/2.ec93af0d.chunk.js.LICENSE.txt": "/test-task-2/static/js/2.ec93af0d.chunk.js.LICENSE.txt",
+    "static/js/2.edf5c06d.chunk.js.LICENSE.txt": "/test-task-2/static/js/2.edf5c06d.chunk.js.LICENSE.txt",
     "static/media/BTC-logo.8508d0a1.svg": "/test-task-2/static/media/BTC-logo.8508d0a1.svg",
     "static/media/ETH-logo.e0865718.svg": "/test-task-2/static/media/ETH-logo.e0865718.svg",
     "static/media/TON-logo.620989a3.svg": "/test-task-2/static/media/TON-logo.620989a3.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.370127c6.js",
-    "static/js/2.ec93af0d.chunk.js",
+    "static/js/2.edf5c06d.chunk.js",
     "static/css/main.f3c06ad6.chunk.css",
-    "static/js/main.6c9b5f83.chunk.js"
+    "static/js/main.43c84b3a.chunk.js"
   ]
 }
