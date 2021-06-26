@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/test-task-2/static/css/main.f3c06ad6.chunk.css",
-    "main.js": "/test-task-2/static/js/main.43c84b3a.chunk.js",
-    "main.js.map": "/test-task-2/static/js/main.43c84b3a.chunk.js.map",
+    "main.css": "/test-task-2/static/css/main.32e2ea15.chunk.css",
+    "main.js": "/test-task-2/static/js/main.a1b436ca.chunk.js",
+    "main.js.map": "/test-task-2/static/js/main.a1b436ca.chunk.js.map",
     "runtime-main.js": "/test-task-2/static/js/runtime-main.370127c6.js",
     "runtime-main.js.map": "/test-task-2/static/js/runtime-main.370127c6.js.map",
-    "static/js/2.edf5c06d.chunk.js": "/test-task-2/static/js/2.edf5c06d.chunk.js",
-    "static/js/2.edf5c06d.chunk.js.map": "/test-task-2/static/js/2.edf5c06d.chunk.js.map",
+    "static/js/2.fbf8105b.chunk.js": "/test-task-2/static/js/2.fbf8105b.chunk.js",
+    "static/js/2.fbf8105b.chunk.js.map": "/test-task-2/static/js/2.fbf8105b.chunk.js.map",
     "index.html": "/test-task-2/index.html",
-    "static/css/main.f3c06ad6.chunk.css.map": "/test-task-2/static/css/main.f3c06ad6.chunk.css.map",
-    "static/js/2.edf5c06d.chunk.js.LICENSE.txt": "/test-task-2/static/js/2.edf5c06d.chunk.js.LICENSE.txt",
+    "static/css/main.32e2ea15.chunk.css.map": "/test-task-2/static/css/main.32e2ea15.chunk.css.map",
+    "static/js/2.fbf8105b.chunk.js.LICENSE.txt": "/test-task-2/static/js/2.fbf8105b.chunk.js.LICENSE.txt",
     "static/media/BTC-logo.8508d0a1.svg": "/test-task-2/static/media/BTC-logo.8508d0a1.svg",
     "static/media/ETH-logo.e0865718.svg": "/test-task-2/static/media/ETH-logo.e0865718.svg",
     "static/media/TON-logo.620989a3.svg": "/test-task-2/static/media/TON-logo.620989a3.svg",
     "static/media/USDT-logo.038e0ca9.svg": "/test-task-2/static/media/USDT-logo.038e0ca9.svg",
+    "static/media/attention.d6b5cd89.svg": "/test-task-2/static/media/attention.d6b5cd89.svg",
+    "static/media/clock.361c3ef5.svg": "/test-task-2/static/media/clock.361c3ef5.svg",
     "static/media/dl.76cca93f.svg": "/test-task-2/static/media/dl.76cca93f.svg",
-    "static/media/payment.fb7fbfca.svg": "/test-task-2/static/media/payment.fb7fbfca.svg"
+    "static/media/payment.fb7fbfca.svg": "/test-task-2/static/media/payment.fb7fbfca.svg",
+    "static/media/qr.0a22358b.png": "/test-task-2/static/media/qr.0a22358b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.370127c6.js",
-    "static/js/2.edf5c06d.chunk.js",
-    "static/css/main.f3c06ad6.chunk.css",
-    "static/js/main.43c84b3a.chunk.js"
+    "static/js/2.fbf8105b.chunk.js",
+    "static/css/main.32e2ea15.chunk.css",
+    "static/js/main.a1b436ca.chunk.js"
   ]
 }
