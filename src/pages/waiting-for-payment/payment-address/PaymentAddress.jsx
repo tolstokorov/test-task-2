@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import Button from '../../../components/button/Button';
 import HeaderSmall from '../../../components/header-small/HeaderSmall';
 import InputContainer from '../../../components/inputs-container/InputContainer';
@@ -11,9 +12,14 @@ import qrCode from './qr.png';
 import Transaction from './Transaction';
 
 function PaymentAddress() {
+  const [show, setShow] = useState(false);
+  const stop = () => setShow(false);
+  useEffect(() => {
+    setTimeout(() => setShow(true), 5000);
+  }, []);
   return (
     <>
-      <Eyebrow>The exchange rate has changed, the payment amount is 0,026 BTC</Eyebrow>
+      { show && <Eyebrow stop={ stop }>The exchange rate has changed, the payment amount is 0,026 BTC</Eyebrow> }
       <Template Header={ () => (<>
           <HeaderSmall invoice='123456'>Waiting for payment</HeaderSmall>
       </>) } Content={ () => (<>

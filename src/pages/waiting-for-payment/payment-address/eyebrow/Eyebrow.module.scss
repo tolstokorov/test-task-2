@@ -7,7 +7,7 @@
     padding: 19px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     background: #FFFFFF;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
@@ -24,4 +24,8 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.5px;
+}
+
+.x {
+    justify-self: flex-end;
 }
