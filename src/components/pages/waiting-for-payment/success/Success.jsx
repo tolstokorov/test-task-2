@@ -66,7 +66,7 @@ function Success() {
         </section>
         <section className={ st['button-box'] }>
             <Button>Refund</Button>
-            <Button accent file>
+            <Button accent file href='TODO:_add_href'>
                 <div className={ st['dl-box'] }>
                     <img className={ st['dl-icon'] }
                         src={ downloadImg } alt="download icon" /> Download receipt</div>
