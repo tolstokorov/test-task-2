@@ -1,30 +1,21 @@
-import Button from '../../../components/button/Button';
-import Invoice from '../../../components/invoice/Invoice';
-import Logo from '../../../components/logo/Logo';
-import InputContainer from '../../../components/inputs-container/InputContainer';
 import Address from '../../../components/address/Address';
-import Title from '../../../components/title/Title';
-import st from './Currency.module.scss';
 import Amount from '../../../components/Amount/Amount';
+import Button from '../../../components/button/Button';
+import HeaderSmall from '../../../components/header-small/HeaderSmall';
+import InputContainer from '../../../components/inputs-container/InputContainer';
+import Template from '../../../components/template/Template';
 import Btc from './btc/Btc';
+import st from './Currency.module.scss';
 import Eth from './eth/Eth';
+import Table from './Table';
 import Ton from './ton/Ton';
 import Usdt from './usdt/Usdt';
-import Table from './Table';
 
 function Currency() {
   return (
-    <div className={ st['currency'] }>
-        <div className={ st['top-wrapper'] }>
-            <div>
-                <section className={ st['invoice '] }>
-                    <Invoice>Invoice #123456</Invoice></section>
-                <section className={ st['title'] }>
-                    <Title>Payment to store.com</Title></section>
-            </div>
-            <section className={ st['logo'] }>
-                <Logo width={ 48 } height={ 48 }/></section>
-        </div>
+    <Template Header={ () => (<>
+        <HeaderSmall invoice='123456'>Payment to store.com</HeaderSmall>
+    </>) } Content={ () => (<>
         <section className={ st['wrapper'] }>
             <Table />
         </section>
@@ -55,11 +46,10 @@ function Currency() {
                 <Address placeholder='Email' />
             </InputContainer>
         </section>
-        <section className={ st['button-box'] }>
-            <Button anchor>Return to store site</Button>
-            <Button accent>Continue</Button>
-        </section>
-    </div>
+    </>) } ButtonsBox={ () => (<>
+        <Button anchor>Return to store site</Button>
+        <Button accent>Continue</Button>
+    </>) }/>
   );
 }
 

@@ -1,27 +1,15 @@
 import Button from '../../../components/button/Button';
-import Invoice from '../../../components/invoice/Invoice';
-import Logo from '../../../components/logo/Logo';
-import Title from '../../../components/title/Title';
-
-import st from './Success.module.scss';
-
-
+import HeaderSmall from '../../../components/header-small/HeaderSmall';
+import Template from '../../../components/template/Template';
 import downloadImg from './dl.svg';
 import paymentImg from './payment.svg';
+import st from './Success.module.scss';
 
 function Success() {
   return (
-    <div className={ st['success'] }>
-        <div className={ st['top-wrapper'] }>
-            <div>
-                <section className={ st['invoice '] }>
-                    <Invoice>Invoice #123456</Invoice></section>
-                <section className={ st['title'] }>
-                    <Title>Success</Title></section>
-            </div>
-            <section className={ st['logo'] }>
-                <Logo width={ 48 } height={ 48 }/></section>
-        </div>
+    <Template Header={ () => (<>
+        <HeaderSmall invoice='123456'>Success</HeaderSmall>
+    </>) } Content={ () => (<>
         <section className={ st['content'] }>
             <div className={ st['thanks-for-payment'] }>
                 <div>
@@ -64,15 +52,14 @@ function Success() {
                 </div>
             </div>
         </section>
-        <section className={ st['button-box'] }>
-            <Button>Refund</Button>
-            <Button accent file href='TODO:_add_href'>
-                <div className={ st['dl-box'] }>
-                    <img className={ st['dl-icon'] }
-                        src={ downloadImg } alt="download icon" /> Download receipt</div>
-            </Button>
-        </section>
-    </div>
+    </>) } ButtonsBox={ () => (<>
+        <Button>Refund</Button>
+        <Button accent file href='TODO:_add_href'>
+            <div className={ st['dl-box'] }>
+                <img className={ st['dl-icon'] }
+                    src={ downloadImg } alt="download icon" />Download receipt</div>
+        </Button>
+    </>) }/>
   );
 }
 

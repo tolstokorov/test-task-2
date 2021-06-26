@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import WaitingForPaymentCurrency from '../pages/waiting-for-payment/currency/Currency';
-
+import WaitingForPaymentPaymentAddress from '../pages/waiting-for-payment/payment-address/PaymentAddress';
 import WaitingForPaymentSuccess from '../pages/waiting-for-payment/success/Success';
 import WaitingForPaymentCancel from '../pages/waiting-for-payment/cancel/Cancel';
 
@@ -18,6 +18,7 @@ import TimeOut from '../pages/time-out/TimeOut';
 import Scene from '../components/scene/Scene';
 
 import st from './App.module.scss';
+import Template from "../components/template/Template";
 
 function App() {
   return (
@@ -53,8 +54,7 @@ function App() {
             <Scene><WaitingForPaymentCurrency /></Scene>
           </Route>
           <Route path="/waiting-for-payment-payment-address">
-            <Scene>work in progress</Scene>
-            {/* <Scene><WaitingForPaymentPaymentAddress /></Scene> */}
+            <Scene><WaitingForPaymentPaymentAddress /></Scene>
           </Route>
           <Route path="/waiting-for-payment-success">
             <Scene><WaitingForPaymentSuccess /></Scene>

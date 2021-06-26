@@ -1,4 +1,4 @@
-.cancel {
+.template {
     background-color: #FFFFFF;
 
     display: flex;
@@ -9,21 +9,28 @@
     border-radius: 4px;
 
     box-sizing: border-box;
-    width: 400px;
+    width: 464px;
+
+    font-family: 'PT Root UI', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #060C32;
 }
 
-.top-wrapper {
+.header {
     box-sizing: border-box;
     width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
     margin-bottom: 32px;
 }
 
-.paragraph {
+.content {
+    box-sizing: border-box;
+    width: 100%;
+
     margin-bottom: 32px;
 }
 
@@ -33,4 +40,14 @@
 
     display: flex;
     justify-content: space-between;
+}
+.alone-button {
+    justify-content: center;
+}
+
+.w400 {
+    width: 400px;
+}
+.w464 {
+    width: 464px;
 }

@@ -1,10 +1,6 @@
 .table {
     width: 100%;
 
-    font-family: 'PT Root UI';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 20px;
 
     margin: 0;
@@ -21,7 +17,6 @@ td:first-child {
 }
 
 .thead {
-    letter-spacing: 0.5px;
     color: #96A1A7;
 }
 
@@ -31,9 +26,6 @@ td:first-child {
 }
 
 .total {
-    font-family: 'PT Root UI';
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.15px;
