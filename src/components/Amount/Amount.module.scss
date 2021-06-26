@@ -2,6 +2,13 @@
     padding: 14px 12px 12px;
 
     cursor: pointer;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
 }
 
 .active {

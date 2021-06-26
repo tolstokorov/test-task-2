@@ -10,7 +10,12 @@
 
     display: flex;
     justify-content: space-between;
-    row-gap: 12px;
+    gap: 12px;
+}
+
+.select-amount-content section {
+    display: flex;
+    flex-grow: 1;
 }
 
 .input-container-wrapper {
