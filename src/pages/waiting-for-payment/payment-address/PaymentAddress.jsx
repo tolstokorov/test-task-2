@@ -15,7 +15,7 @@ function PaymentAddress() {
   const [show, setShow] = useState(false);
   const stop = () => setShow(false);
   useEffect(() => {
-    setTimeout(() => setShow(true), 5000);
+    setTimeout(() => setShow(true), 3000);
   }, []);
   return (
     <>
