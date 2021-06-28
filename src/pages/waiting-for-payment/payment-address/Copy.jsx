@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { createRef, useState } from 'react';
 import st from './Copy.module.scss';
 
 function Copy({ placeholder, value = '' }) {
@@ -10,7 +10,10 @@ function Copy({ placeholder, value = '' }) {
                 placeholder={ placeholder }
                 value={ inputValue }
                 onChange={ (e) => setInputValue(e.target.value) }/>
-            <button onClick={ () => setSuccess(true) } className={ st['btn'] }>Copy</button>
+            <button onClick={ () => {
+                navigator.clipboard.writeText(inputValue);
+                setSuccess(true);
+            } } className={ st['btn'] }>Copy</button>
             { success && <div className={ st['success'] }>Код успешно скопирован!</div> }
         </div>
     );
