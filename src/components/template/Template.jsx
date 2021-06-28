@@ -1,6 +1,6 @@
 import st from './Template.module.scss';
 
-function Template({ Header, Content, ButtonsBox, width, aloneBtn = false, mediaStyle = ''}) {
+function Template({ Header, Content, ButtonsBox, width, aloneBtn = false }) {
   let templateStyle = st['template'] + ' ';
   switch(width) {
     case 400:
@@ -12,7 +12,7 @@ function Template({ Header, Content, ButtonsBox, width, aloneBtn = false, mediaS
       break;
   }
   return (
-    <div className={ templateStyle + ' ' + mediaStyle}>
+    <div className={ templateStyle }>
         <section className={ st['header'] }>
             <Header />
         </section>

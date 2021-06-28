@@ -29,6 +29,13 @@
     }
 }
 
+@media (min-width: 1900px) {
+    .inner {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
 .memo-box-2 {
     margin: -4px 0 16px;
 }

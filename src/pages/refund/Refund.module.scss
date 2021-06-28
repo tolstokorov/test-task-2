@@ -14,14 +14,10 @@
 }
 
 .amount {
-    max-width: 194px;
-
     display: flex;
     flex-grow: 1;
 
-    @media (max-width: 464px) {
-        width: calc(50% - 12px/2)
-    }
+    width: calc(50% - 12px/2);
 }
 
 .provided-email-wrapper {

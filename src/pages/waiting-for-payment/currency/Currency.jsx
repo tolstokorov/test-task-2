@@ -19,7 +19,7 @@ function Currency() {
     const [isUsdtActive, setIsUsdtActive] = useState(false);
 
     return (
-        <Template mediaStyle='currency-media' Header={ () => (<>
+        <Template Header={ () => (<>
             <HeaderSmall invoice='123456'>Payment to store.com</HeaderSmall>
         </>) } Content={ () => (<>
             <section className={ st['wrapper'] }>
