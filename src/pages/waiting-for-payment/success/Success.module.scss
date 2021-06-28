@@ -39,6 +39,14 @@
     }
 }
 
+.thanks-for-payment_img {
+    padding-left: 60px;
+
+    @media (max-width: 464px) {
+        padding-left: 10px;
+    }
+}
+
 .stripe {
     display: flex;
     justify-content: space-between;
@@ -55,11 +63,16 @@
 .key {
     line-height: 20px;
     font-weight: 500;
+
+    max-width: 35%;
 }
 
 .value {
     line-height: 20px;
     font-weight: normal;
+
+    max-width: 65%;
+    text-align: right;
 }
 
 .status-completed {

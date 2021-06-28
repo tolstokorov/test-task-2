@@ -9,6 +9,14 @@
     column-span: none;
 
     text-align: right;
+
+    @media (max-width: 464px) {
+        font-size: 13px;
+    }
+
+    @media (max-width: 370px) {
+        font-size: 10px;
+    }
 }
 
 th:first-child,

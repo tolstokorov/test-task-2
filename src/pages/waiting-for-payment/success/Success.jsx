@@ -16,7 +16,7 @@ function Success() {
                     <section className={ st['thanks-for-payment_title'] }>
                         Thank you for payment!</section>
                     <section className={ st['thanks-for-payment_text'] }>
-                        Your order is now complete and you can<br />
+                        Your order is now complete and you can
                         safely close this window</section>
                 </div>
                 <section className={ st['thanks-for-payment_img'] }>

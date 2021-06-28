@@ -1,8 +1,8 @@
 .wrapper {
-    width: 232;
     height: 48px;
 
     box-sizing: border-box;
+    width: 100%;
 
     display: flex;
 
@@ -11,7 +11,7 @@
 
 .textarea {
     box-sizing: border-box;
-    width: 168px;
+    width: calc(100% - 64px);
     height: 100%;
 
     padding: 8px;
@@ -23,6 +23,8 @@
 
     resize: none !important;
     overflow: hidden;
+
+    justify-self: stretch;
 }
 
 .btn {

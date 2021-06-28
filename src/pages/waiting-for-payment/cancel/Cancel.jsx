@@ -7,7 +7,7 @@ import Template from '../../../components/template/Template';
 function Cancel() {
   return (
     <Template width={ 400 } Header={ () => (<>
-        <HeaderSmall invoice='123456'>Payment has been<br />canceled</HeaderSmall>
+        <HeaderSmall invoice='123456'>Payment has been canceled</HeaderSmall>
     </>) } Content={ () => (<>
         <Paragraph>If you have made any payments, click Refund to request the reimbursement</Paragraph>
     </>) } ButtonsBox={ () => (<>

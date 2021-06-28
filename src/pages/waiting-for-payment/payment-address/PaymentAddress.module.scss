@@ -5,8 +5,28 @@
 .box {
     display: flex;
     justify-content: space-between;
-    gap: 64px;
+    column-gap: 64px;
     margin-bottom: 32px;
+
+    @media (max-width: 464px) {
+        flex-wrap: wrap;
+        gap: 0px;
+        row-gap: 32px;
+    }
+}
+
+@media (max-width: 464px) {
+    .inner {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .qr {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .memo-box-2 {

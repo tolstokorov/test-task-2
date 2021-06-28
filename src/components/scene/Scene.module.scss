@@ -32,6 +32,9 @@
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 5px;
 
     margin: 16px 20px;
 }

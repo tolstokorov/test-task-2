@@ -34,13 +34,13 @@ function PaymentAddress() {
             <Memo>If the exchange rate changes more than 2%, the amount will be recalculated</Memo>
           </div>
           <div className={ st['box'] }>
-            <div><InputContainer label='Payment address'>
+            <div className={ st['inner'] }><InputContainer label='Payment address'>
               <div className={ st['memo-box-2'] }>
                 <Memo>Pay in one or several transactions</Memo>
               </div>
               <Copy placeholder='TODO:_add_placeholder' value='bc1qdjs9zfaayn394u2mnntkrhpvrdjfszcwnam4d6'/>
             </InputContainer></div>
-            <div><img src={ qrCode } alt="qr-code" width={ 106 } height={ 106 }/></div>
+            <div className={ st['qr'] }><img src={ qrCode } alt="qr-code" width={ 106 } height={ 106 }/></div>
           </div>
           <InputContainer label='Payment status'>
             <div className={ st['status-text'] }>Received 0.012 BTC (47%)...</div>

@@ -10,12 +10,19 @@
 
     display: flex;
     justify-content: space-between;
+
+    flex-wrap: wrap;
+
     gap: 12px;
 }
 
 .select-amount-content section {
     display: flex;
     flex-grow: 1;
+
+    @media (max-width: 464px) {
+        width: calc(50% - 12px/2)
+    }
 }
 
 .input-container-wrapper {
