@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Address from '../../../components/address/Address';
-import Amount from '../../../components/Amount/Amount';
+import Amount from '../../../components/amount/Amount';
 import Button from '../../../components/button/Button';
 import HeaderSmall from '../../../components/header-small/HeaderSmall';
 import InputContainer from '../../../components/inputs-container/InputContainer';

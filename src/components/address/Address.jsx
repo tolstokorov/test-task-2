@@ -11,7 +11,7 @@ function Address({ placeholder, rightText }) {
           navigator.clipboard.readText()
             .then(text => setValue(text));
         }}
-          className={ st['right-text'] }>{rightText}</button>
+          className={ st['right-text'] }>{rightText} </button>
     </div>
   );
 }

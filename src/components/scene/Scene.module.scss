@@ -10,6 +10,13 @@
     'small' auto
     / 1fr;
 
+    @media (max-width: 464px) {
+        grid-template:
+        'main' 1fr
+        'small' auto
+        / 1fr;
+    }
+
     font-family: 'PT Root UI', sans-serif;
     font-style: normal;
     font-weight: normal;
