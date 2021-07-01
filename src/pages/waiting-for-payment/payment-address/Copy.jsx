@@ -1,4 +1,4 @@
-import { createRef, useState } from 'react';
+import { useState } from 'react';
 import st from './Copy.module.scss';
 
 function Copy({ placeholder, value = '' }) {

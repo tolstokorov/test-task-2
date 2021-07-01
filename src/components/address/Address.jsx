@@ -5,7 +5,7 @@ function Address({ placeholder, rightText }) {
   const [value, setValue] = useState('');
   return (
     <div className={ st['address'] }>
-        <input className={ st['input'] }
+        <input onChange={ e => setValue(e.target.value) } className={ st['input'] }
         placeholder={ placeholder } value={ value }/>
         <button onClick={ () => {
           navigator.clipboard.readText()

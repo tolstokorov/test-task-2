@@ -19,6 +19,29 @@
 
     resize: none !important;
     overflow: hidden;
+
+    border: 1px solid #DDE1E2;
+
+    line-height: 20px;
+
+    @mixin text {
+        font-family: 'PT Root UI', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: #96A1A7;
+    }
+
+    @include text;
+
+    &::-moz-placeholder {
+        @include text;
+    }
+    &::-webkit-input-placeholder {
+        @include text;
+    }
 }
 
 .right-text {
@@ -28,5 +51,5 @@
 
     transform: translateY(-50%);
 
-    color: #3C6CCE;
+    color: #96A1A7;
 }
